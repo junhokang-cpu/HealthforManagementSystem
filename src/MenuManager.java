@@ -39,11 +39,11 @@ public class MenuManager {
 		Scanner nscan = new Scanner(System.in);
 		System.out.println("Add User's Name : ");
 		String name;
+		name = nscan.nextLine();
 		int age;
 		double goal ,weight;
 		System.out.println("Add User's Age");
 		age = nscan.nextInt();
-		name = nscan.nextLine();
 		System.out.println("Add User's weight");
 		weight = nscan.nextDouble();
 		System.out.println("Enter your goal");
